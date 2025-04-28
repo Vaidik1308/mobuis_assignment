@@ -21,8 +21,6 @@ const HeroSection = () => {
                 </p>
                 <AuthButton
                     buttonText='Get Started'
-                    buttonType='primary'
-                    buttonSize='medium'
                     buttonIcon={<MdArrowForward size={20} />}
                     rootClassName='flex items-center gap-0.5 py-4 w-fit'
                 />

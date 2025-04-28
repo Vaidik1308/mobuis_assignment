@@ -106,7 +106,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <h4 className="text-[#022183] text-xl font-bold mb-2">Tried, Tested, Trusted</h4>
               <p className="text-[#022183] text-base font-normal leading-5 w-[100%]">
-                Built by folks with 40+ years in tech and hiring — we know the game, and we've got your back.
+                {"Built by folks with 40+ years in tech and hiring — we know the game, and we've got your back."}
               </p>
             </div>
           </div>
