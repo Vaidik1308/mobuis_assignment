@@ -3,6 +3,7 @@ import HeroSection from "@/components/pages/home/HeroSection";
 import AuthButton from "@/components/reusable/buttons/AuthButton";
 import SectionComp from "@/components/reusable/containers/SectionComp";
 import Image from "next/image";
+import { IoMdArrowForward } from "react-icons/io";
 import { MdArrowForward } from "react-icons/md";
 
 export default function Home() {
@@ -56,6 +57,91 @@ export default function Home() {
         </div>
       </SectionComp>
 
+      {/* about us section */}
+      <SectionComp rootClassName="flex flex-col gap-10 items-start md:w-full" sectionHeadingClassName="md:text-[#0649E7] md:font-[500]"  childrenClassName="flex w-full  flex-col gap-10">
+        <div style={{
+          backgroundImage: `url(${'/images/bg/about_us.svg'})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          width: '100%',
+          height: '100%',
+        }}
+        className="py-20"
+>
+          <div className=" w-[75%] mx-auto ">
+            <h2 className="text-2xl font-bold text-white mb-16">About Us</h2>
+            
+            {/* Team Members Grid */}
+            <div className="flex flex-col gap-16 w-[75%] mx-auto">
+              {/* Ashwin's Profile */}
+              <div className="flex flex-col lg:flex-row items-center justify-center gap-20 w-full">
+                <div className="relative w-fit">
+                  <Image
+                    src="/images/bg/admin.svg"
+                    alt="Ashwin"
+                    width={250}
+                    height={250}
+                    className="rounded-full"
+                  />
+                  <a 
+                    href="https://linkedin.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="absolute bottom-[-5%] right-[5%] flex items-center justify-center rounded-full p-2 shadow-lg backdrop-blur-[6px] stroke-2 size-[75px] border-1 border-white"
+                  >
+                    <Image src="/images/logo/linkedin_white.svg" alt="LinkedIn" width={30} height={30} />
+                  </a>
+                </div>
+                <div className="text-white w-1/2">
+                  <p className="text-[14px] mb-4">
+                    <span className="text-white font-bold">Ashwin</span> is the founder of mobiusengine.ai
+                    He is an accomplished senior executive with over 20 years of experience in cloud infrastructure and financial services. With over 2 decades of experience at Google and JP Morgan, Ashwin held various product and GTM roles. Ashwin is an MBA holder from Yale University.
+                  </p>
+                  <p className="text-[14px]">
+                    Ashwin's vision with Mobius is to give job seekers a significant advantage in securing the roles of their dreams.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col lg:flex-row items-center justify-center gap-20 w-full">
+                <div className="relative w-fit">
+                  <Image
+                    src="/images/bg/admin2.svg"
+                    alt="Ashwin"
+                    width={250}
+                    height={250}
+                    className="rounded-full"
+                  />
+                  <a 
+                    href="https://linkedin.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="absolute bottom-[-5%] right-[5%] flex items-center justify-center rounded-full p-2 shadow-lg backdrop-blur-[6px] stroke-2 size-[75px] border-1 border-white"
+                  >
+                    <Image src="/images/logo/linkedin_white.svg" alt="LinkedIn" width={30} height={30} />
+                  </a>
+                </div>
+                <div className="text-white w-1/2">
+                  <p className="text-[14px] mb-4">
+                    <span className="text-white font-bold">Nicole</span>  is an Executive coach at Mobius specializing in resume builds and career advisory. 
+                  </p>
+                  <p className="text-[14px]">
+                  With a B.S. in Business Administration from UC Berkeley and 7+ years of experience in AI-driven product strategy, she has seen firsthand how the proper positioning opens doors. She takes a targeted, results-driven approach to help clients confidently stand out and land roles that truly match their skills and potential
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-2 items-center">
+                <div className="flex flex-col gap-2 items-start pl-32 text-white">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[14px] flex items-center gap-0.5">Learn more about our Board of Advisors​  <IoMdArrowForward size={20} className="-rotate-45" /> </a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[14px] flex items-center gap-0.5">Follow us on our Linkedin page  <IoMdArrowForward size={20} className="-rotate-45" /> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </SectionComp>
       {/* what our clients have to say */}
       <SectionComp rootClassName="flex flex-col gap-10 items-start" sectionHeadingClassName="md:text-[#0649E7] md:font-[500]" sectionHeading="What our clients have to say" childrenClassName="flex flex-col gap-10">
         <div className="w-full grid grid-cols-3 gap-12">
@@ -243,10 +329,10 @@ export default function Home() {
             </div>
           </div>
           {/* Plus */}
-          <div className="rounded-[35px] border-2 border-[#0066EB] bg-[#F8FAFF] p-8 flex flex-col h-[600px] gap-6 w-1/3">
+          <div className="rounded-[35px] border-2 border-[#0066EB] bg-white p-8 flex flex-col h-[600px] gap-6 w-1/3">
           <div className="flex flex-col  px-2 justify-between h-[30%] ">
             <h3 className="text-[#0066EB] text-2xl font-bold mb-2">Plus</h3>
-            <div className="text-[#0066EB] text-4xl font-bold mb-1">$100<span className="text-2xl font-normal">/week</span></div>
+            <div className="text-[#0066EB] text-[50px] font-bold mb-1">$100<span className="text-2xl font-normal">/week</span></div>
             <hr className="my-4 border-[#E5E7EB]" />
             </div>
             <div className="flex flex-col gap-3 px-2 justify-between h-[70%]">
