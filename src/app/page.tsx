@@ -410,6 +410,8 @@ export default function Home() {
             <AuthButton buttonText="Get Started" rootClassName="md:text-[#0649E7] md:bg-white flex items-center gap-2 md:px-8 md:py-[14px] justify-center w-fit"  buttonIcon={<MdArrowForward size={20} />}/>
           </div>
         </div>
+
+        <hr  className="mt-16 text-[#BCBCBC]"/>
       </SectionComp>
 
 

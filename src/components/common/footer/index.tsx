@@ -11,7 +11,7 @@ const Footer = () => {
             <Image src="/images/logo/blue_logo.svg" alt="MobuisEngine Logo" width={60} height={60} />
             <span className="text-[#0649E7] text-xl font-[600] font-['sora']">MobuisEngine</span>
           </div>
-          <hr className="border-[#E5E7EB] mt-2" />
+          <hr className="border-[#E5E7EB] mt-2 w-[25%]" />
         </div>
         {/* Middle: Info columns */}
         <div className="w-full flex flex-col md:flex-row justify-between gap-8 pb-8">
