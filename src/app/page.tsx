@@ -99,7 +99,7 @@ export default function Home() {
                     He is an accomplished senior executive with over 20 years of experience in cloud infrastructure and financial services. With over 2 decades of experience at Google and JP Morgan, Ashwin held various product and GTM roles. Ashwin is an MBA holder from Yale University.
                   </p>
                   <p className="text-[14px]">
-                    Ashwin's vision with Mobius is to give job seekers a significant advantage in securing the roles of their dreams.
+                    {"Ashwin's vision with Mobius is to give job seekers a significant advantage in securing the roles of their dreams."}
                   </p>
                 </div>
               </div>
