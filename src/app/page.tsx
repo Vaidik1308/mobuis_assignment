@@ -280,6 +280,157 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="w-full bg-[#0649E7] rounded-[40px] flex flex-col md:flex-row items-center justify-between px-12 py-10 mt-12">
+          {/* Left: Title and features */}
+          <div className="flex-1 flex flex-col gap-3 text-white">
+            <div className="flex flex-col gap-0 leading-6">
+              <h5 className="text-[28px] font-[600] mb-1">Advance</h5>
+              <p className="text-[14px] font-normal mb-4">Top-tier support for serious job hunters:</p>
+            </div>
+            <hr className="border-[#BCBCBC] my-2 w-[40%]" />
+            <div className="flex flex-col gap-2 mt-4">
+              <div className="flex flex-wrap gap-x-12 gap-y-2">
+                <span className="flex items-center gap-2 min-w-[260px]">
+                  <svg width="22" height="22" fill="none"><circle cx="11" cy="11" r="11" fill="#4AD257"/><path d="M7 11.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  Everything in Plus
+                </span>
+                <span className="flex items-center gap-2 min-w-[260px]">
+                  <svg width="22" height="22" fill="none"><circle cx="11" cy="11" r="11" fill="#4AD257"/><path d="M7 11.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  Custom Resumes & Cover Letters
+                </span>
+              </div>
+              <div className="flex flex-wrap gap-x-12 gap-y-2">
+                <span className="flex items-center gap-2 min-w-[260px]">
+                  <svg width="22" height="22" fill="none"><circle cx="11" cy="11" r="11" fill="#4AD257"/><path d="M7 11.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  20 fully customized applications/week
+                </span>
+                <span className="flex items-center gap-2 min-w-[260px]">
+                  <svg width="22" height="22" fill="none"><circle cx="11" cy="11" r="11" fill="#4AD257"/><path d="M7 11.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  Help with complex job searches
+                </span>
+              </div>
+              <div className="flex flex-wrap gap-x-12 gap-y-2">
+                <span className="flex items-center gap-2 min-w-[260px]">
+                  <svg width="22" height="22" fill="none"><circle cx="11" cy="11" r="11" fill="#4AD257"/><path d="M7 11.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  Access to senior resume experts, Founder & Exec Coaches
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* Right: Price and button */}
+          <div className="flex flex-col items-end justify-between h-[220px] min-w-[260px] mt-8 md:mt-0">
+            <div className="text-white text-5xl font-bold">$150<span className="text-2xl font-[600]">/week</span></div>
+            <AuthButton buttonText="Get Started" rootClassName="md:text-[#0649E7] md:bg-white flex items-center gap-2 md:px-8 md:py-[14px] justify-center w-fit"  buttonIcon={<MdArrowForward size={20} />}/>
+          </div>
+        </div>
+      </SectionComp>
+
+
+      <SectionComp rootClassName="flex flex-col gap-10 items-start md:w-[75%] md:px-6" sectionHeadingClassName="md:text-[#0649E7] font-[400] " childrenClassName="w-full" >
+        <div className="flex flex-col gap-1 items-start">
+          <h5 className="font-[600] text-[#0649E7] text-[32px] ">Resume Building & Coaching</h5>
+          <p className="text-[#0649E7]  text-[16px]  flex flex-col leading-5">Let&apos;s talk about where you&apos;re headed — and how your resume can get you there. 
+            <span className="font-[600] text-[#0649E7]">Schedule a call to get started.</span>
+          </p>
+        </div>
+        <div className="flex flex-col md:flex-row gap-5 w-[70%] mt-20 mx-auto justify-between">
+        <div className="rounded-[35px] border-2 border-[#0066EB] bg-white p-8 flex flex-col h-[820px] gap-6 w-1/2">
+          <div className="flex flex-col  px-2 justify-between h-[30%] ">
+            <div className="flex flex-col ">
+              <h5 className="text-[#0649E7] text-[25px] font-sans font-[600]">Resume Rebuild</h5>
+              <p className="text-[#0649E7] leading-4.5 text-[15px] font-[500] font-['DM Sans']">Crafted for senior to VP-level professionals ready for their next big step.</p>
+            </div>
+            <div className="text-[#0649E7] text-[50px] font-['DM Sans'] font-bold my-4">$1000<span className="text-2xl font-[600] pl-2">one time</span></div>
+            <hr className="my-4 border-[#BCBCBC] w-[80%] " />
+            </div>
+            <div className="flex flex-col gap-3 px-2 justify-between h-[70%]">
+            <ul className="flex flex-col gap-3 mb-8">
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">3× 30–min coaching</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Focused on storytelling, not just formatting</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Analyst + full application team on Pacific hours</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Tailored to your target industry, company, or role</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Direct work with our co-founder (ex–Google, JP Morgan)</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Executive coaching from UC Berkeley alum with 10+ yrs experience</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Resume Rebuild portfolio available upon request</p>
+              </li>
+            </ul>
+            <AuthButton buttonText="Get Started" rootClassName="md:bg-[#0649E7] md:text-white flex items-center gap-2 md:px-8 md:py-[14px] justify-center w-fit"  buttonIcon={<MdArrowForward size={20} />}/>
+            </div>
+          </div>
+          <div className="rounded-[35px] border-2 border-[#0066EB] bg-white p-8 flex flex-col h-[820px] gap-6 w-1/2">
+          <div className="flex flex-col  px-2 justify-between h-[30%] ">
+            <div className="flex flex-col ">
+              <h5 className="text-[#0649E7] text-[25px] font-sans font-[600]">Interview Prep</h5>
+              <p className="text-[#0649E7] leading-4.5 text-[15px] font-[500] font-['DM Sans']">Two sessions to sharpen your story, confidence, and clarity — fast.</p>
+            </div>
+            <div className="text-[#0649E7] text-[50px] font-['DM Sans'] font-bold my-4">$500<span className="text-2xl font-[600] pl-2">one time</span></div>
+            <hr className="my-4 border-[#BCBCBC] w-[80%] " />
+            </div>
+            <div className="flex flex-col gap-3 px-1 justify-between h-[70%]">
+            <ul className="flex flex-col gap-3 mb-8">
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">2× 45–min live coaching with our co-founder</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Real-time, practical feedback</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">Build clarity, empathy & executive presence</p>
+              </li>
+              <li className="flex items-start gap-2 text-[#0066EB] text-base">
+                <span className="mt-0.5"><svg width="20" height="20" fill="none"><circle cx="10" cy="10" r="9" fill="#4AD257"/><path d="M6 10.5l2 2 5-5" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg></span>
+                <p className="text-base text-[#0649E7] font-[500] leading-4.5 text-[16px]">For senior and leadership roles — technical & non-technical</p>
+              </li>
+            </ul>
+            <AuthButton buttonText="Get Started" rootClassName="md:bg-[#0649E7] md:text-white flex items-center gap-2 md:px-8 md:py-[14px] justify-center w-fit"  buttonIcon={<MdArrowForward size={20} />}/>
+            </div>
+          </div>
+        </div>
+      </SectionComp>
+
+
+      {/* contacy section */}
+      <SectionComp rootClassName="flex flex-col gap-10 items-start md:w-[75%] md:px-6" sectionHeadingClassName="md:text-[#0649E7] font-[400] " childrenClassName="w-full" >
+        <div className=" bg-[#0649E7] rounded-[35px] flex flex-row items-center justify-between px-16 py-28 mt-8 w-full">
+          {/* Left: Still have doubts? */}
+          <div className="flex-1 flex flex-col items-start">
+            <span className="text-white text-3xl font-normal leading-tight">STILL HAVE<br/>DOUBTS?</span>
+          </div>
+          {/* Center: Contact us */}
+          <div className="flex-1 flex justify-center">
+            <span className="text-white text-6xl font-bold">Contact us</span>
+          </div>
+          {/* Right: Arrow button */}
+          <div className="flex-1 flex justify-end">
+            <button className="size-24 rounded-full bg-white flex items-center justify-center shadow-lg">
+              <Image src="/images/hero_section/arrow_bottom_left.svg" className="-rotate-135" alt="arrow-right" width={30} height={30} />
+            </button>
+          </div>
+        </div>
       </SectionComp>
     </div>
   );
