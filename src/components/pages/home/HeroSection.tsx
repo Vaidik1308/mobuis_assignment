@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className='w-full flex justify-center items-center py-28'>
         <div className='w-[75%] mx-auto flex justify-between items-start'>
             <div className='w-2/3 flex flex-col gap-10 justify-start'>
-                <h1 className='text-white  font-semibold flex flex-wrap leading-20'>
+                <h1 className='text-white  font-semibold flex flex-wrap leading-20 font-["Sora"]'>
                 Land job interviews
                 <span className='text-[#0649E7] pr-4'>
                 10x 
